@@ -1,24 +1,18 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "ChattyTutor",
     "version": "1.0.0"
   },
   "tauri": {
     "security": {
       "csp": null,
-      "dangerousRemoteDomainIpcAccess": [
-        {
-          "domain": "weread.qq.com",
-          "windows": ["pake"],
-          "enableTauriAPI": true
-        }
-      ]
+      "dangerousRemoteDomainIpcAccess": []
     },
     "updater": {
       "active": false
     },
     "systemTray": {
-      "iconPath": "png/icon_512.png",
+      "iconPath": "png/g8.png",
       "iconAsTemplate": true
     },
     "allowlist": {

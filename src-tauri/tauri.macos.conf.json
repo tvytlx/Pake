@@ -1,8 +1,8 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["icons/weread.icns"],
-      "identifier": "com.pake.weread",
+      "icon": ["icons/g8.icns"],
+      "identifier": "com.pake.chattytutor",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
