@@ -91,15 +91,15 @@ jobs:
             src-tauri/target/
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
-      - name: Config App
-        env:
-          NAME: ${{ inputs.name }}
-          TITLE: ${{ inputs.title }}
-          NAME_ZH: ${{ inputs.name_zh }}
-          URL: ${{ inputs.url }}
-        run: |
-          npm install
-          npm run build:config
+      # - name: Config App
+      #   env:
+      #     NAME: ${{ inputs.name }}
+      #     TITLE: ${{ inputs.title }}
+      #     NAME_ZH: ${{ inputs.name_zh }}
+      #     URL: ${{ inputs.url }}
+      #   run: |
+      #     npm install
+      #     npm run build:config
 
       # - name: Build for Ubuntu
       #   if: matrix.os == 'ubuntu-latest'
